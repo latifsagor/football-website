@@ -18,7 +18,8 @@ body{
 
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 70px;
 }
 
@@ -61,9 +62,11 @@ header{
 .section-title h1{
     line-height: 80px;
     color: #fff;
-    margin-bottom: 27px;
 }
 
+.button{
+    margin-top: 27px;
+}
 .button a{
     text-decoration: none;
     background-color: #E02C6D;
@@ -114,4 +117,25 @@ Player-inf_section start
 
 .player-photo img{
     width: 100%;
+}
+
+/* -------------------
+Player-inf_section end
+------------------- */
+
+/* -------------------
+HIGHLIGHTS SECTION START
+------------------- */
+.pass-throuh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 165px;
+}
+.ball_pass-photo img{
+    width: 567px;
+}
+
+.section-title-two{
+    padding-right: 66px;
 }
