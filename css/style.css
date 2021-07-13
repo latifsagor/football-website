@@ -151,6 +151,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 158px;
+    margin-bottom: 63px;
 }
 .footer-info{
     display: flex;
@@ -162,12 +164,24 @@ footer{
     width: 450px;
 }
 
+.social-icons{
+    margin-top: 20px;
+}
+
 .social-icons a{
     text-decoration: none;
-    font-size: 20px;
-    margin-right: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #969BAB;
+    padding: 10px;
+    background-color: #E7E7E8;
+    border-radius: 50%;
 }
 
 .copyright{
-    
+    margin-top: 20px;
+}
+
+.copyright p{
+    font-size: 18px;
 }
