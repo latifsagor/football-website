@@ -31,6 +31,10 @@ h1{
     font-size: 64px;
 }
 
+h2{
+    font-size: 48px;
+}
+
 h3{
     font-size: 28px;
 }
@@ -135,13 +139,56 @@ HIGHLIGHTS SECTION START
 .ball_pass-photo img{
     width: 567px;
 }
-
 .section-title-two{
     padding-right: 66px;
 }
 
 /* -------------------
 HIGHLIGHTS SECTION END
+------------------- */
+
+/* -------------------
+CONTACT-US SECTION START
+------------------- */
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input{
+    display: block;
+    width: 321px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #2d25a0ad;
+    outline: none;
+}
+
+.submit{
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit:hover{
+    background-color: #ff2903;
+    cursor: pointer;
+}
+
+
+/* -------------------
+CONTACT-US SECTION END
 ------------------- */
 
 /* -------------------
@@ -159,15 +206,12 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-
 .footer-logo img{
     width: 450px;
 }
-
 .social-icons{
     margin-top: 20px;
 }
-
 .social-icons a{
     text-decoration: none;
     font-size: 14px;
@@ -177,11 +221,9 @@ footer{
     background-color: #E7E7E8;
     border-radius: 50%;
 }
-
 .copyright{
     margin-top: 20px;
 }
-
 .copyright p{
     font-size: 18px;
 }
@@ -209,7 +251,7 @@ MEDIA QUERIES
         padding-right: 15px;
     }
 
-    h1{
+    h2{
         font-size: 36px;
     }
 
@@ -235,6 +277,10 @@ MEDIA QUERIES
         align-items: flex-start;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    h2{
+        font-size: 30px;
     }
 
     .ball_pass-photo{
