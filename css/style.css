@@ -148,6 +148,27 @@ HIGHLIGHTS SECTION END
 ------------------- */
 
 /* -------------------
+PARTNERS SECTION START
+------------------- */
+
+.trusted-partners{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+/* -------------------
+PARTNERS SECTION END
+------------------- */
+
+/* -------------------
 CONTACT-US SECTION START
 ------------------- */
 .contact-us{
@@ -285,6 +306,11 @@ MEDIA QUERIES
 
     .ball_pass-photo{
         margin-top: 29px;
+    }
+
+    .photo-frame img{
+        width: 100%;
+        margin-top: 25px;
     }
 
     .footer-logo img{
